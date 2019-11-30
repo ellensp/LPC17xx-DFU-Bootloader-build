@@ -1,0 +1,1531 @@
+Archive member included because of file (symbol)
+
+build/nxp.ar(system_LPC17xx.o)
+                              build/startup.o (SystemInit)
+build/nxp.ar(lpc17xx_pinsel.o)
+                              build/uart.o (PINSEL_ConfigPin)
+build/nxp.ar(lpc17xx_gpio.o)  build/spi.o (FIO_SetDir)
+build/nxp.ar(lpc17xx_uart.o)  build/uart.o (UART_IntConfig)
+build/nxp.ar(lpc17xx_nvic.o)  build/startup.o (NVIC_DeInit)
+build/nxp.ar(lpc17xx_clkpwr.o)
+                              build/nxp.ar(lpc17xx_uart.o) (CLKPWR_SetPCLKDiv)
+build/nxp.ar(lpc17xx_wdt.o)   build/main.o (WDT_ReadTimeOutFlag)
+build/fatfs.ar(ff.o)          build/main.o (f_mount)
+build/fatfs.ar(diskio.o)      build/fatfs.ar(ff.o) (disk_initialize)
+/home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o)
+                              /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
+/home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+                              /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+                              /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
+/home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+                              /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o) (__call_exitprocs)
+/home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-fini.o)
+                              /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+
+Allocating common symbols
+Common symbol       size              file
+
+rxbuf               0x208             build/uart.o
+param_table         0x14              build/sbl_iap.o
+sspr                0x4               build/spi.o
+busy_buffers        0x4               build/SDCard.o
+control             0x12              build/usbcore.o
+busyflags           0x4               build/SDCard.o
+fat                 0x22e             build/main.o
+sclk                0x2               build/spi.o
+_cs                 0x2               build/SDCard.o
+current_state       0x1               build/dfu.o
+mosi                0x2               build/spi.o
+cardtype            0x4               build/SDCard.o
+result_table        0x14              build/sbl_iap.o
+file                0x24              build/main.o
+flash_p             0x4               build/dfu.o
+control_buffer      0x40              build/usbcore.o
+bufp                0x4               build/min-printf.o
+_sectors            0x4               build/SDCard.o
+delay               0x4               build/spi.o
+descriptors         0x4               build/usbcore.o
+printf_buf          0xc               build/min-printf.o
+block_buffer        0x200             build/dfu.o
+EPcallbacks         0x78              build/usbhw.o
+TxIntStat           0x1               build/uart.o
+miso                0x2               build/spi.o
+port                0x4               build/uart.o
+txbuf               0x208             build/uart.o
+u                   0x4               build/uart.o
+blocking            0x1               build/uart.o
+flash_buf           0x200             build/sbl_iap.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .data          0x00000000        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .text          0x00000000       0x74 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.extab     0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 build/baudfinder.o
+ .data          0x00000000        0x0 build/baudfinder.o
+ .bss           0x00000000        0x0 build/baudfinder.o
+ .text          0x00000000        0x0 build/lpc17xx_usb.o
+ .data          0x00000000        0x0 build/lpc17xx_usb.o
+ .bss           0x00000000        0x0 build/lpc17xx_usb.o
+ .text.SIE_ReadCurrentFrameNumber
+                0x00000000       0x28 build/lpc17xx_usb.o
+ .text.SIE_ReadTestRegister
+                0x00000000       0x28 build/lpc17xx_usb.o
+ .text.SIE_GetErrorCode
+                0x00000000       0x1c build/lpc17xx_usb.o
+ .text.SIE_ReadErrorStatus
+                0x00000000       0x1c build/lpc17xx_usb.o
+ .text          0x00000000        0x0 build/uart.o
+ .data          0x00000000        0x0 build/uart.o
+ .bss           0x00000000        0x0 build/uart.o
+ .text.UART_recv
+                0x00000000       0x54 build/uart.o
+ .text.UART_cansend
+                0x00000000       0x18 build/uart.o
+ .text.UART_canrecv
+                0x00000000       0x14 build/uart.o
+ .text.UART_send
+                0x00000000       0xc0 build/uart.o
+ .text.UART_err_isr
+                0x00000000        0x2 build/uart.o
+ .text          0x00000000        0x0 build/usbcore.o
+ .data          0x00000000        0x0 build/usbcore.o
+ .bss           0x00000000        0x0 build/usbcore.o
+ .text          0x00000000        0x0 build/sbl_iap.o
+ .data          0x00000000        0x0 build/sbl_iap.o
+ .bss           0x00000000        0x0 build/sbl_iap.o
+ .text.execute_user_code
+                0x00000000       0x18 build/sbl_iap.o
+ .text.user_code_present
+                0x00000000       0x44 build/sbl_iap.o
+ .text.check_isp_entry_pin
+                0x00000000       0x18 build/sbl_iap.o
+ .text.erase_user_flash
+                0x00000000       0x40 build/sbl_iap.o
+ .text          0x00000000        0x0 build/SDCard.o
+ .data          0x00000000        0x0 build/SDCard.o
+ .bss           0x00000000        0x0 build/SDCard.o
+ .text.SDCard_disk_erase
+                0x00000000        0x6 build/SDCard.o
+ .text.SDCard_disk_sync
+                0x00000000        0x4 build/SDCard.o
+ .text.SDCard_disk_size
+                0x00000000       0x10 build/SDCard.o
+ .text          0x00000000        0x0 build/usbhw.o
+ .data          0x00000000        0x0 build/usbhw.o
+ .bss           0x00000000        0x0 build/usbhw.o
+ .text.usb_set_callback
+                0x00000000       0x1c build/usbhw.o
+ .text.usb_ep_stall
+                0x00000000       0x10 build/usbhw.o
+ .text.usb_ep_unstall
+                0x00000000       0x10 build/usbhw.o
+ COMMON         0x00000000       0x78 build/usbhw.o
+ .text          0x00000000        0x0 build/spi.o
+ .data          0x00000000        0x0 build/spi.o
+ .bss           0x00000000        0x0 build/spi.o
+ .text._delay   0x00000000        0xa build/spi.o
+ .text          0x00000000        0x0 build/gpio.o
+ .data          0x00000000        0x0 build/gpio.o
+ .bss           0x00000000        0x0 build/gpio.o
+ .text          0x00000000        0x0 build/skel.o
+ .data          0x00000000        0x0 build/skel.o
+ .bss           0x00000000        0x0 build/skel.o
+ .text._exit    0x00000000        0x2 build/skel.o
+ .text._kill    0x00000000        0x4 build/skel.o
+ .text._getpid  0x00000000        0x4 build/skel.o
+ .text.__aeabi_atexit
+                0x00000000        0x4 build/skel.o
+ .text._write   0x00000000        0x4 build/skel.o
+ .text._close   0x00000000        0x4 build/skel.o
+ .text._lseek   0x00000000        0x4 build/skel.o
+ .text._read    0x00000000        0x4 build/skel.o
+ .text._sbrk    0x00000000       0x28 build/skel.o
+ .text._fstat   0x00000000        0x4 build/skel.o
+ .text._isatty  0x00000000        0xa build/skel.o
+ .bss.heap_end.6538
+                0x00000000        0x4 build/skel.o
+ .text          0x00000000        0x0 build/main.o
+ .data          0x00000000        0x0 build/main.o
+ .bss           0x00000000        0x0 build/main.o
+ .text._write   0x00000000       0x28 build/main.o
+ .text          0x00000000        0x0 build/min-printf.o
+ .data          0x00000000        0x0 build/min-printf.o
+ .bss           0x00000000        0x0 build/min-printf.o
+ .text.strlen   0x00000000        0xe build/min-printf.o
+ .text._puts    0x00000000       0x24 build/min-printf.o
+ .text._uint_write
+                0x00000000       0x50 build/min-printf.o
+ .text._int_write
+                0x00000000       0x30 build/min-printf.o
+ .text._hex_write
+                0x00000000       0x64 build/min-printf.o
+ .text.print0s  0x00000000       0x20 build/min-printf.o
+ .text.vfprintf
+                0x00000000      0x128 build/min-printf.o
+ .text.fprintf  0x00000000       0x20 build/min-printf.o
+ .text.printf   0x00000000       0x20 build/min-printf.o
+ .rodata.str1.1
+                0x00000000       0x16 build/min-printf.o
+ COMMON         0x00000000       0x10 build/min-printf.o
+ .text          0x00000000        0x0 build/dfu.o
+ .data          0x00000000        0x0 build/dfu.o
+ .bss           0x00000000        0x0 build/dfu.o
+ .text.DFU_GetStatus
+                0x00000000       0x18 build/dfu.o
+ .text.DFU_GetState
+                0x00000000       0x18 build/dfu.o
+ .data          0x00000000        0x0 build/startup.o
+ .bss           0x00000000        0x0 build/startup.o
+ .ARM.extab.cs3.reset
+                0x00000000        0x0 build/startup.o
+ .ARM.extab.text.init_nvic
+                0x00000000        0x0 build/startup.o
+ .text          0x00000000        0x0 build/nxp.ar(system_LPC17xx.o)
+ .data          0x00000000        0x0 build/nxp.ar(system_LPC17xx.o)
+ .bss           0x00000000        0x0 build/nxp.ar(system_LPC17xx.o)
+ .text          0x00000000        0x0 build/nxp.ar(lpc17xx_pinsel.o)
+ .data          0x00000000        0x0 build/nxp.ar(lpc17xx_pinsel.o)
+ .bss           0x00000000        0x0 build/nxp.ar(lpc17xx_pinsel.o)
+ .text.PINSEL_ConfigTraceFunc
+                0x00000000       0x20 build/nxp.ar(lpc17xx_pinsel.o)
+ .text.PINSEL_SetI2C0Pins
+                0x00000000       0x14 build/nxp.ar(lpc17xx_pinsel.o)
+ .text          0x00000000        0x0 build/nxp.ar(lpc17xx_gpio.o)
+ .data          0x00000000        0x0 build/nxp.ar(lpc17xx_gpio.o)
+ .bss           0x00000000        0x0 build/nxp.ar(lpc17xx_gpio.o)
+ .text.GPIO_IntCmd
+                0x00000000       0x30 build/nxp.ar(lpc17xx_gpio.o)
+ .text.GPIO_GetIntStatus
+                0x00000000       0x38 build/nxp.ar(lpc17xx_gpio.o)
+ .text.GPIO_ClearInt
+                0x00000000       0x18 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_IntCmd
+                0x00000000        0xc build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_GetIntStatus
+                0x00000000        0xc build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_ClearInt
+                0x00000000        0xc build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_SetMask
+                0x00000000       0x24 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetDir
+                0x00000000       0x44 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetMask
+                0x00000000       0x44 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetValue
+                0x00000000       0x20 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_HalfWordClearValue
+                0x00000000       0x20 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_HalfWordReadValue
+                0x00000000       0x20 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_ByteSetDir
+                0x00000000       0x2c build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_ByteSetMask
+                0x00000000       0x30 build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_ByteSetValue
+                0x00000000       0x1c build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_ByteClearValue
+                0x00000000       0x1c build/nxp.ar(lpc17xx_gpio.o)
+ .text.FIO_ByteReadValue
+                0x00000000       0x20 build/nxp.ar(lpc17xx_gpio.o)
+ .rodata.CSWTCH.8
+                0x00000000       0x14 build/nxp.ar(lpc17xx_gpio.o)
+ .rodata.CSWTCH.10
+                0x00000000       0x14 build/nxp.ar(lpc17xx_gpio.o)
+ .text          0x00000000        0x0 build/nxp.ar(lpc17xx_uart.o)
+ .data          0x00000000        0x0 build/nxp.ar(lpc17xx_uart.o)
+ .bss           0x00000000        0x0 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_Send.part.0
+                0x00000000       0x40 build/nxp.ar(lpc17xx_uart.o)
+ .text.uabs     0x00000000        0xe build/nxp.ar(lpc17xx_uart.o)
+ .text.calc_baud
+                0x00000000       0x16 build/nxp.ar(lpc17xx_uart.o)
+ .text.baud_space_search
+                0x00000000      0x140 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_Init
+                0x00000000      0x1dc build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_ConfigStructInit
+                0x00000000       0x1a build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_SendByte
+                0x00000000        0x4 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_ReceiveByte
+                0x00000000        0x6 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_Send
+                0x00000000       0x4c build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_Receive
+                0x00000000       0x40 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_ForceBreak
+                0x00000000        0xa build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_FIFOConfig
+                0x00000000       0x38 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_FIFOConfigStructInit
+                0x00000000        0xe build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_ABCmd
+                0x00000000       0x70 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_ABClearIntPending
+                0x00000000       0x18 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_TxCmd
+                0x00000000       0x1e build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_DeInit
+                0x00000000       0x54 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_IrDAInvtInputCmd
+                0x00000000       0x1e build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_IrDACmd
+                0x00000000       0x16 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_IrDAPulseDivConfig
+                0x00000000       0x1e build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_FullModemForcePinState
+                0x00000000       0x22 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_FullModemConfigMode
+                0x00000000       0x24 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_FullModemGetStatus
+                0x00000000        0x4 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_RS485Config
+                0x00000000       0x58 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_RS485ReceiverCmd
+                0x00000000       0x16 build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_RS485Send
+                0x00000000       0x2c build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_RS485SendSlvAddr
+                0x00000000       0x2c build/nxp.ar(lpc17xx_uart.o)
+ .text.UART_RS485SendData
+                0x00000000       0x10 build/nxp.ar(lpc17xx_uart.o)
+ .rodata.CSWTCH.38
+                0x00000000        0x3 build/nxp.ar(lpc17xx_uart.o)
+ .rodata.CSWTCH.13
+                0x00000000        0x3 build/nxp.ar(lpc17xx_uart.o)
+ .rodata.CSWTCH.27
+                0x00000000        0x3 build/nxp.ar(lpc17xx_uart.o)
+ .text          0x00000000        0x0 build/nxp.ar(lpc17xx_nvic.o)
+ .data          0x00000000        0x0 build/nxp.ar(lpc17xx_nvic.o)
+ .bss           0x00000000        0x0 build/nxp.ar(lpc17xx_nvic.o)
+ .text          0x00000000        0x0 build/nxp.ar(lpc17xx_clkpwr.o)
+ .data          0x00000000        0x0 build/nxp.ar(lpc17xx_clkpwr.o)
+ .bss           0x00000000        0x0 build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_SetPCLKDiv
+                0x00000000       0x4c build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_GetPCLKSEL
+                0x00000000       0x20 build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_GetPCLK
+                0x00000000       0x24 build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_ConfigPPWR
+                0x00000000       0x34 build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_Sleep
+                0x00000000       0x10 build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepSleep
+                0x00000000       0x1c build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_PowerDown
+                0x00000000       0x1c build/nxp.ar(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepPowerDown
+                0x00000000       0x1c build/nxp.ar(lpc17xx_clkpwr.o)
+ .text          0x00000000        0x0 build/nxp.ar(lpc17xx_wdt.o)
+ .data          0x00000000        0x0 build/nxp.ar(lpc17xx_wdt.o)
+ .bss           0x00000000        0x0 build/nxp.ar(lpc17xx_wdt.o)
+ .text.WDT_SetTimeOut
+                0x00000000       0x80 build/nxp.ar(lpc17xx_wdt.o)
+ .text.WDT_Init
+                0x00000000       0x34 build/nxp.ar(lpc17xx_wdt.o)
+ .text.WDT_Start
+                0x00000000       0x28 build/nxp.ar(lpc17xx_wdt.o)
+ .text.WDT_UpdateTimeOut
+                0x00000000       0x20 build/nxp.ar(lpc17xx_wdt.o)
+ .text.WDT_GetCurrentCount
+                0x00000000        0x8 build/nxp.ar(lpc17xx_wdt.o)
+ .text          0x00000000        0x0 build/fatfs.ar(ff.o)
+ .data          0x00000000        0x0 build/fatfs.ar(ff.o)
+ .bss           0x00000000        0x0 build/fatfs.ar(ff.o)
+ .text.get_fileinfo
+                0x00000000       0x7a build/fatfs.ar(ff.o)
+ .text.f_write  0x00000000      0x1ac build/fatfs.ar(ff.o)
+ .text.f_lseek  0x00000000      0x11c build/fatfs.ar(ff.o)
+ .text.f_opendir
+                0x00000000       0x70 build/fatfs.ar(ff.o)
+ .text.f_readdir
+                0x00000000       0x70 build/fatfs.ar(ff.o)
+ .text.f_stat   0x00000000       0x4c build/fatfs.ar(ff.o)
+ .text.f_getfree
+                0x00000000       0xfc build/fatfs.ar(ff.o)
+ .text.f_truncate
+                0x00000000       0xa4 build/fatfs.ar(ff.o)
+ .text.f_mkdir  0x00000000      0x1ec build/fatfs.ar(ff.o)
+ .text.f_chmod  0x00000000       0x5c build/fatfs.ar(ff.o)
+ .text.f_utime  0x00000000       0x5c build/fatfs.ar(ff.o)
+ .text          0x00000000        0x0 build/fatfs.ar(diskio.o)
+ .data          0x00000000        0x0 build/fatfs.ar(diskio.o)
+ .bss           0x00000000        0x0 build/fatfs.ar(diskio.o)
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000      0x428 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x94 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xf0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .eh_frame      0x00000000        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .text          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .data          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .bss           0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00004000         xr
+userom           0x00004000         0x0007c000         xr
+ram              0x10000000         0x00007fe0         xrw
+ahbb0            0x2007c000         0x00004000         rw
+ahbb1            0x20080000         0x00004000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD build/baudfinder.o
+LOAD build/lpc17xx_usb.o
+LOAD build/uart.o
+LOAD build/usbcore.o
+LOAD build/sbl_iap.o
+LOAD build/SDCard.o
+LOAD build/usbhw.o
+LOAD build/spi.o
+LOAD build/gpio.o
+LOAD build/skel.o
+LOAD build/main.o
+LOAD build/min-printf.o
+LOAD build/dfu.o
+LOAD build/startup.o
+LOAD build/nxp.ar
+LOAD build/fatfs.ar
+                0x10007fe0                PROVIDE (__cs3_stack, (__cs3_region_start_ram + __cs3_region_size_ram))
+                0x20007528                PROVIDE (__cs3_stack_size, ((__cs3_region_start_ram + __cs3_region_size_ram) - _end))
+                0x10000bd8                PROVIDE (__cs3_heap_start, _end)
+                0x10007fe0                PROVIDE (__cs3_heap_end, (__cs3_region_start_ram + __cs3_region_size_ram))
+
+.text           0x00000000     0x35e4
+                0x00000000                __cs3_region_start_rom = .
+ *(.cs3.region-head.rom)
+                0x00000000                __cs3_interrupt_vector = __cs3_interrupt_vector_cortex_m
+ *(.cs3.interrupt_vector)
+ .cs3.interrupt_vector
+                0x00000000       0xcc build/startup.o
+                0x00000000                __cs3_interrupt_vector_cortex_m
+                0x00000001                ASSERT ((. != __cs3_interrupt_vector_cortex_m), No interrupt vector)
+ *(.rom)
+ *(.rom.b)
+                0x000000cc                __cs3_reset = __cs3_reset_cortex_m
+ *(.cs3.reset)
+ .cs3.reset     0x000000cc       0x5c build/startup.o
+                0x000000cc                __cs3_reset_cortex_m
+                0x00000001                ASSERT ((. != __cs3_reset), No reset code)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000128       0x54 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .text.SIE_CMD  0x0000017c       0x20 build/lpc17xx_usb.o
+                0x0000017c                SIE_CMD
+ .text.SIE_CMD_READ
+                0x0000019c       0x28 build/lpc17xx_usb.o
+                0x0000019c                SIE_CMD_READ
+ .text.SIE_CMD_WRITE
+                0x000001c4       0x20 build/lpc17xx_usb.o
+                0x000001c4                SIE_CMD_WRITE
+ .text.SIE_SetAddress
+                0x000001e4       0x20 build/lpc17xx_usb.o
+                0x000001e4                SIE_SetAddress
+ .text.SIE_ConfigureDevice
+                0x00000204       0x20 build/lpc17xx_usb.o
+                0x00000204                SIE_ConfigureDevice
+ .text.SIE_SetMode
+                0x00000224       0x20 build/lpc17xx_usb.o
+                0x00000224                SIE_SetMode
+ .text.SIE_SetDeviceStatus
+                0x00000244       0x20 build/lpc17xx_usb.o
+                0x00000244                SIE_SetDeviceStatus
+ .text.SIE_GetDeviceStatus
+                0x00000264       0x1c build/lpc17xx_usb.o
+                0x00000264                SIE_GetDeviceStatus
+ .text.SIE_SelectEndpoint
+                0x00000280       0x28 build/lpc17xx_usb.o
+                0x00000280                SIE_SelectEndpoint
+ .text.SIE_SelectEndpointClearInterrupt
+                0x000002a8       0x30 build/lpc17xx_usb.o
+                0x000002a8                SIE_SelectEndpointClearInterrupt
+ .text.SIE_SetEndpointStatus
+                0x000002d8       0x2c build/lpc17xx_usb.o
+                0x000002d8                SIE_SetEndpointStatus
+ .text.SIE_ClearBuffer
+                0x00000304       0x1c build/lpc17xx_usb.o
+                0x00000304                SIE_ClearBuffer
+ .text.SIE_ValidateBuffer
+                0x00000320       0x14 build/lpc17xx_usb.o
+                0x00000320                SIE_ValidateBuffer
+ .text.SIE_Connect
+                0x00000334       0x1c build/lpc17xx_usb.o
+                0x00000334                SIE_Connect
+ .text.SIE_Disconnect
+                0x00000350       0x18 build/lpc17xx_usb.o
+                0x00000350                SIE_Disconnect
+ .text.UART_pin_init
+                0x00000368       0xec build/uart.o
+                0x00000368                UART_pin_init
+ .text.UART_baud
+                0x00000454      0x26c build/uart.o
+                0x00000454                UART_baud
+ .text.UART_init
+                0x000006c0       0x18 build/uart.o
+                0x000006c0                UART_init
+ .text.UART_deinit
+                0x000006d8       0x30 build/uart.o
+                0x000006d8                UART_deinit
+ .text.UART_busy
+                0x00000708       0x24 build/uart.o
+                0x00000708                UART_busy
+ .text.UART_tx_isr
+                0x0000072c       0x80 build/uart.o
+                0x0000072c                UART_tx_isr
+ .text.UART_rx_isr
+                0x000007ac       0x44 build/uart.o
+                0x000007ac                UART_rx_isr
+ .text.UART_isr
+                0x000007f0       0x4c build/uart.o
+                0x000007f0                UART_isr
+ .text.UART0_IRQHandler
+                0x0000083c        0xc build/uart.o
+                0x0000083c                UART0_IRQHandler
+ .text.usb_provideDescriptors
+                0x00000848        0xc build/usbcore.o
+                0x00000848                usb_provideDescriptors
+ .text.requestGetStatus
+                0x00000854       0x20 build/usbcore.o
+                0x00000854                requestGetStatus
+ .text.requestGetDescriptor
+                0x00000874       0x78 build/usbcore.o
+                0x00000874                requestGetDescriptor
+ .text.requestSetConfiguration
+                0x000008ec       0x10 build/usbcore.o
+                0x000008ec                requestSetConfiguration
+ .text.requestGetConfiguration
+                0x000008fc       0x1c build/usbcore.o
+                0x000008fc                requestGetConfiguration
+ .text.EP0Complete
+                0x00000918       0x1c build/usbcore.o
+                0x00000918                EP0Complete
+ .text.EP0setup
+                0x00000934       0xa0 build/usbcore.o
+                0x00000934                EP0setup
+ .text.EP0in    0x000009d4       0x6c build/usbcore.o
+                0x000009d4                EP0in
+ .text.EP0out   0x00000a40       0x70 build/usbcore.o
+                0x00000a40                EP0out
+ .text.iap_entry
+                0x00000ab0        0xc build/sbl_iap.o
+                0x00000ab0                iap_entry
+ .text.write_data
+                0x00000abc       0x2c build/sbl_iap.o
+                0x00000abc                write_data
+ .text.erase_sector
+                0x00000ae8       0x24 build/sbl_iap.o
+                0x00000ae8                erase_sector
+ .text.prepare_sector
+                0x00000b0c       0x24 build/sbl_iap.o
+                0x00000b0c                prepare_sector
+ .text.find_erase_prepare_sector
+                0x00000b30       0x64 build/sbl_iap.o
+                0x00000b30                find_erase_prepare_sector
+ .text.write_flash
+                0x00000b94       0x90 build/sbl_iap.o
+                0x00000b94                write_flash
+ .text.ext_bits
+                0x00000c24       0x2e build/SDCard.o
+ *fill*         0x00000c52        0x2 
+ .text.SDCard_init
+                0x00000c54       0x34 build/SDCard.o
+                0x00000c54                SDCard_init
+ .text.SDCard_disk_status
+                0x00000c88       0x14 build/SDCard.o
+                0x00000c88                SDCard_disk_status
+ .text.SDCard_disk_sectors
+                0x00000c9c        0xc build/SDCard.o
+                0x00000c9c                SDCard_disk_sectors
+ .text.SDCard_disk_blocksize
+                0x00000ca8        0x6 build/SDCard.o
+                0x00000ca8                SDCard_disk_blocksize
+ *fill*         0x00000cae        0x2 
+ .text.SDCard__cmd
+                0x00000cb0       0x80 build/SDCard.o
+                0x00000cb0                SDCard__cmd
+ .text.SDCard_initialise_card_v1
+                0x00000d30       0x30 build/SDCard.o
+                0x00000d30                SDCard_initialise_card_v1
+ .text.SDCard__cmdx
+                0x00000d60       0x68 build/SDCard.o
+                0x00000d60                SDCard__cmdx
+ .text.SDCard__cmd58
+                0x00000dc8       0x9c build/SDCard.o
+                0x00000dc8                SDCard__cmd58
+ .text.SDCard_initialise_card_v2
+                0x00000e64       0x4c build/SDCard.o
+                0x00000e64                SDCard_initialise_card_v2
+ .text.SDCard__cmd8
+                0x00000eb0       0x84 build/SDCard.o
+                0x00000eb0                SDCard__cmd8
+ .text.SDCard_initialise_card
+                0x00000f34       0x70 build/SDCard.o
+                0x00000f34                SDCard_initialise_card
+ .text.SDCard__read
+                0x00000fa4       0x5c build/SDCard.o
+                0x00000fa4                SDCard__read
+ .text.SDCard_disk_read
+                0x00001000       0x40 build/SDCard.o
+                0x00001000                SDCard_disk_read
+ .text.SDCard__write
+                0x00001040       0x7c build/SDCard.o
+                0x00001040                SDCard__write
+ .text.SDCard_disk_write
+                0x000010bc       0x40 build/SDCard.o
+                0x000010bc                SDCard_disk_write
+ .text.SDCard__sd_sectors
+                0x000010fc       0x98 build/SDCard.o
+                0x000010fc                SDCard__sd_sectors
+ .text.SDCard_disk_initialize
+                0x00001194       0x4c build/SDCard.o
+                0x00001194                SDCard_disk_initialize
+ .text.usb_init
+                0x000011e0       0x60 build/usbhw.o
+                0x000011e0                usb_init
+ .text.usb_disconnect
+                0x00001240        0xc build/usbhw.o
+                0x00001240                usb_disconnect
+ .text.usb_realise_endpoint
+                0x0000124c       0x54 build/usbhw.o
+                0x0000124c                usb_realise_endpoint
+ .text.usb_connect
+                0x000012a0       0x2c build/usbhw.o
+                0x000012a0                usb_connect
+ .text.usb_read_packet
+                0x000012cc       0x7c build/usbhw.o
+                0x000012cc                usb_read_packet
+ .text.usb_write_packet
+                0x00001348       0x74 build/usbhw.o
+                0x00001348                usb_write_packet
+ .text.usb_ep0_stall
+                0x000013bc       0x10 build/usbhw.o
+                0x000013bc                usb_ep0_stall
+ .text.usb_task
+                0x000013cc       0xec build/usbhw.o
+                0x000013cc                usb_task
+ .text.USB_IRQHandler
+                0x000014b8       0x12 build/usbhw.o
+                0x000014b8                USB_IRQHandler
+ *fill*         0x000014ca        0x2 
+ .text.SPI_frequency
+                0x000014cc       0x74 build/spi.o
+                0x000014cc                SPI_frequency
+ .text.SPI_init
+                0x00001540      0x170 build/spi.o
+                0x00001540                SPI_init
+ .text.SPI_write
+                0x000016b0       0x24 build/spi.o
+                0x000016b0                SPI_write
+ .text.GPIO_setup
+                0x000016d4       0x30 build/gpio.o
+                0x000016d4                GPIO_setup
+ .text.GPIO_init
+                0x00001704        0xc build/gpio.o
+                0x00001704                GPIO_init
+ .text.GPIO_set_direction
+                0x00001710       0x1c build/gpio.o
+                0x00001710                GPIO_set_direction
+ .text.GPIO_output
+                0x0000172c       0x10 build/gpio.o
+                0x0000172c                GPIO_output
+ .text.GPIO_input
+                0x0000173c       0x10 build/gpio.o
+                0x0000173c                GPIO_input
+ .text.GPIO_set
+                0x0000174c       0x18 build/gpio.o
+                0x0000174c                GPIO_set
+ .text.GPIO_clear
+                0x00001764       0x18 build/gpio.o
+                0x00001764                GPIO_clear
+ .text.GPIO_write
+                0x0000177c       0x24 build/gpio.o
+                0x0000177c                GPIO_write
+ .text.GPIO_get
+                0x000017a0       0x20 build/gpio.o
+                0x000017a0                GPIO_get
+ .text.__aeabi_unwind_cpp_pr0
+                0x000017c0        0x2 build/skel.o
+                0x000017c0                __aeabi_unwind_cpp_pr0
+ .text.__libc_init_array
+                0x000017c2        0x2 build/skel.o
+                0x000017c2                __libc_init_array
+ .text.atexit   0x000017c4        0x4 build/skel.o
+                0x000017c4                atexit
+ .text.delay_loop
+                0x000017c8       0x1c build/main.o
+ .text.dfu_btn_pressed
+                0x000017e4       0x10 build/main.o
+                0x000017e4                dfu_btn_pressed
+ .text.start_dfu
+                0x000017f4       0x38 build/main.o
+                0x000017f4                start_dfu
+ .text.check_sd_firmware
+                0x0000182c       0xa8 build/main.o
+                0x0000182c                check_sd_firmware
+ .text.startup.main
+                0x000018d4      0x1ac build/main.o
+                0x000018d4                main
+ .text.get_fattime
+                0x00001a80        0x8 build/main.o
+                0x00001a80                get_fattime
+ .text.NMI_Handler
+                0x00001a88        0x2 build/main.o
+                0x00001a88                NMI_Handler
+ .text.HardFault_Handler
+                0x00001a8a        0x2 build/main.o
+                0x00001a8a                HardFault_Handler
+ .text.MemManage_Handler
+                0x00001a8c        0x2 build/main.o
+                0x00001a8c                MemManage_Handler
+ .text.BusFault_Handler
+                0x00001a8e        0x2 build/main.o
+                0x00001a8e                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00001a90        0x2 build/main.o
+                0x00001a90                UsageFault_Handler
+ *fill*         0x00001a92        0x2 
+ .text.DFU_init
+                0x00001a94       0x20 build/dfu.o
+                0x00001a94                DFU_init
+ .text.DFU_Download
+                0x00001ab4       0x50 build/dfu.o
+                0x00001ab4                DFU_Download
+ .text.DFU_Upload
+                0x00001b04       0x48 build/dfu.o
+                0x00001b04                DFU_Upload
+ .text.DFU_ClearStatus
+                0x00001b4c       0x20 build/dfu.o
+                0x00001b4c                DFU_ClearStatus
+ .text.DFU_Abort
+                0x00001b6c       0x20 build/dfu.o
+                0x00001b6c                DFU_Abort
+ .text.DFU_controlTransfer
+                0x00001b8c       0x64 build/dfu.o
+                0x00001b8c                DFU_controlTransfer
+ .text.DFU_transferComplete
+                0x00001bf0       0x90 build/dfu.o
+                0x00001bf0                DFU_transferComplete
+ .text.DFU_complete
+                0x00001c80       0x14 build/dfu.o
+                0x00001c80                DFU_complete
+ .text.USBEvent_busReset
+                0x00001c94       0x3c build/dfu.o
+                0x00001c94                USBEvent_busReset
+ .text          0x00001cd0        0xa build/startup.o
+                0x00001cd0                SVC_Handler
+                0x00001cd2                DebugMon_Handler
+                0x00001cd4                PendSV_Handler
+                0x00001cd6                SysTick_Handler
+                0x00001cd8                TIMER2_IRQHandler
+                0x00001cd8                RIT_IRQHandler
+                0x00001cd8                I2C0_IRQHandler
+                0x00001cd8                USBActivity_IRQHandler
+                0x00001cd8                PWM1_IRQHandler
+                0x00001cd8                I2C1_IRQHandler
+                0x00001cd8                EINT2_IRQHandler
+                0x00001cd8                UART1_IRQHandler
+                0x00001cd8                EINT3_IRQHandler
+                0x00001cd8                CANActivity_IRQHandler
+                0x00001cd8                TIMER3_IRQHandler
+                0x00001cd8                PLL0_IRQHandler
+                0x00001cd8                CAN_IRQHandler
+                0x00001cd8                PLL1_IRQHandler
+                0x00001cd8                SSP0_IRQHandler
+                0x00001cd8                I2S_IRQHandler
+                0x00001cd8                I2C2_IRQHandler
+                0x00001cd8                RTC_IRQHandler
+                0x00001cd8                TIMER0_IRQHandler
+                0x00001cd8                SPI_IRQHandler
+                0x00001cd8                EINT1_IRQHandler
+                0x00001cd8                TIMER1_IRQHandler
+                0x00001cd8                UART2_IRQHandler
+                0x00001cd8                Default_Handler
+                0x00001cd8                ADC_IRQHandler
+                0x00001cd8                SSP1_IRQHandler
+                0x00001cd8                BOD_IRQHandler
+                0x00001cd8                WDT_IRQHandler
+                0x00001cd8                QEI_IRQHandler
+                0x00001cd8                EINT0_IRQHandler
+                0x00001cd8                DMA_IRQHandler
+                0x00001cd8                UART3_IRQHandler
+                0x00001cd8                MCPWM_IRQHandler
+                0x00001cd8                ENET_IRQHandler
+ *fill*         0x00001cda        0x2 
+ .text.init_nvic
+                0x00001cdc       0x2c build/startup.o
+                0x00001cdc                init_nvic
+ .text.SystemCoreClockUpdate
+                0x00001d08       0xc0 build/nxp.ar(system_LPC17xx.o)
+                0x00001d08                SystemCoreClockUpdate
+ .text.SystemInit
+                0x00001dc8      0x130 build/nxp.ar(system_LPC17xx.o)
+                0x00001dc8                SystemInit
+ .text.PINSEL_ConfigPin
+                0x00001ef8       0xa8 build/nxp.ar(lpc17xx_pinsel.o)
+                0x00001ef8                PINSEL_ConfigPin
+ .text.GPIO_SetDir
+                0x00001fa0       0x24 build/nxp.ar(lpc17xx_gpio.o)
+                0x00001fa0                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x00001fc4       0x18 build/nxp.ar(lpc17xx_gpio.o)
+                0x00001fc4                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x00001fdc       0x18 build/nxp.ar(lpc17xx_gpio.o)
+                0x00001fdc                GPIO_ClearValue
+ .text.GPIO_ReadValue
+                0x00001ff4       0x18 build/nxp.ar(lpc17xx_gpio.o)
+                0x00001ff4                GPIO_ReadValue
+ .text.FIO_SetDir
+                0x0000200c        0xc build/nxp.ar(lpc17xx_gpio.o)
+                0x0000200c                FIO_SetDir
+ .text.FIO_SetValue
+                0x00002018        0xc build/nxp.ar(lpc17xx_gpio.o)
+                0x00002018                FIO_SetValue
+ .text.FIO_ClearValue
+                0x00002024        0xc build/nxp.ar(lpc17xx_gpio.o)
+                0x00002024                FIO_ClearValue
+ .text.FIO_ReadValue
+                0x00002030        0xc build/nxp.ar(lpc17xx_gpio.o)
+                0x00002030                FIO_ReadValue
+ .text.UART_IntConfig
+                0x0000203c       0x4c build/nxp.ar(lpc17xx_uart.o)
+                0x0000203c                UART_IntConfig
+ .text.UART_GetLineStatus
+                0x00002088        0x6 build/nxp.ar(lpc17xx_uart.o)
+                0x00002088                UART_GetLineStatus
+ .text.UART_GetIntId
+                0x0000208e        0xc build/nxp.ar(lpc17xx_uart.o)
+                0x0000208e                UART_GetIntId
+ .text.UART_CheckBusy
+                0x0000209a        0xc build/nxp.ar(lpc17xx_uart.o)
+                0x0000209a                UART_CheckBusy
+ *fill*         0x000020a6        0x2 
+ .text.NVIC_DeInit
+                0x000020a8       0x34 build/nxp.ar(lpc17xx_nvic.o)
+                0x000020a8                NVIC_DeInit
+ .text.NVIC_SCBDeInit
+                0x000020dc       0x40 build/nxp.ar(lpc17xx_nvic.o)
+                0x000020dc                NVIC_SCBDeInit
+ .text.NVIC_SetVTOR
+                0x0000211c        0xc build/nxp.ar(lpc17xx_nvic.o)
+                0x0000211c                NVIC_SetVTOR
+ .text.WDT_ReadTimeOutFlag
+                0x00002128        0xc build/nxp.ar(lpc17xx_wdt.o)
+                0x00002128                WDT_ReadTimeOutFlag
+ .text.WDT_ClrTimeOutFlag
+                0x00002134        0xe build/nxp.ar(lpc17xx_wdt.o)
+                0x00002134                WDT_ClrTimeOutFlag
+ .text.WDT_Feed
+                0x00002142       0x12 build/nxp.ar(lpc17xx_wdt.o)
+                0x00002142                WDT_Feed
+ .text.mem_cpy  0x00002154       0x12 build/fatfs.ar(ff.o)
+ *fill*         0x00002166        0x2 
+ .text.move_window
+                0x00002168       0x88 build/fatfs.ar(ff.o)
+ .text.validate
+                0x000021f0       0x2c build/fatfs.ar(ff.o)
+ .text.ld_clust.isra.0
+                0x0000221c       0x1c build/fatfs.ar(ff.o)
+ .text.check_fs
+                0x00002238       0x8c build/fatfs.ar(ff.o)
+ .text.chk_mounted
+                0x000022c4      0x344 build/fatfs.ar(ff.o)
+ .text.sync     0x00002608       0xd4 build/fatfs.ar(ff.o)
+ .text.clust2sect
+                0x000026dc       0x1a build/fatfs.ar(ff.o)
+                0x000026dc                clust2sect
+ *fill*         0x000026f6        0x2 
+ .text.get_fat  0x000026f8       0xe4 build/fatfs.ar(ff.o)
+                0x000026f8                get_fat
+ .text.dir_sdi  0x000027dc       0x98 build/fatfs.ar(ff.o)
+ .text.dir_remove
+                0x00002874       0x2c build/fatfs.ar(ff.o)
+ .text.put_fat  0x000028a0      0x108 build/fatfs.ar(ff.o)
+                0x000028a0                put_fat
+ .text.create_chain
+                0x000029a8       0xb0 build/fatfs.ar(ff.o)
+ .text.dir_next
+                0x00002a58      0x114 build/fatfs.ar(ff.o)
+ .text.follow_path
+                0x00002b6c      0x1ac build/fatfs.ar(ff.o)
+ .text.dir_register
+                0x00002d18       0x68 build/fatfs.ar(ff.o)
+ .text.dir_read
+                0x00002d80       0x58 build/fatfs.ar(ff.o)
+ .text.remove_chain
+                0x00002dd8       0x64 build/fatfs.ar(ff.o)
+ .text.f_mount  0x00002e3c       0x20 build/fatfs.ar(ff.o)
+                0x00002e3c                f_mount
+ .text.f_open   0x00002e5c      0x168 build/fatfs.ar(ff.o)
+                0x00002e5c                f_open
+ .text.f_read   0x00002fc4      0x154 build/fatfs.ar(ff.o)
+                0x00002fc4                f_read
+ .text.f_sync   0x00003118       0x98 build/fatfs.ar(ff.o)
+                0x00003118                f_sync
+ .text.f_close  0x000031b0       0x18 build/fatfs.ar(ff.o)
+                0x000031b0                f_close
+ .text.f_unlink
+                0x000031c8       0xd8 build/fatfs.ar(ff.o)
+                0x000031c8                f_unlink
+ .text.f_rename
+                0x000032a0      0x124 build/fatfs.ar(ff.o)
+                0x000032a0                f_rename
+ .text.disk_initialize
+                0x000033c4       0x18 build/fatfs.ar(diskio.o)
+                0x000033c4                disk_initialize
+ .text.disk_status
+                0x000033dc       0x18 build/fatfs.ar(diskio.o)
+                0x000033dc                disk_status
+ .text.disk_read
+                0x000033f4       0x2c build/fatfs.ar(diskio.o)
+                0x000033f4                disk_read
+ .text.disk_write
+                0x00003420       0x2c build/fatfs.ar(diskio.o)
+                0x00003420                disk_write
+ .text.disk_ioctl
+                0x0000344c       0x48 build/fatfs.ar(diskio.o)
+                0x0000344c                disk_ioctl
+ .text.startup.register_fini
+                0x00003494       0x14 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ .text.__libc_fini_array
+                0x000034a8       0x30 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-fini.o)
+                0x000034a8                __libc_fini_array
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.CSWTCH.29
+                0x000034d8        0x3 build/uart.o
+ .rodata.str1.1
+                0x000034db       0x1a build/main.o
+ *fill*         0x000034f5        0x3 
+ .rodata.CSWTCH.6
+                0x000034f8       0x14 build/nxp.ar(lpc17xx_gpio.o)
+ .rodata.CSWTCH.22
+                0x0000350c        0xe build/nxp.ar(lpc17xx_uart.o)
+ .rodata.str1.1
+                0x0000351a        0xf build/fatfs.ar(ff.o)
+ .rodata.excvt.4413
+                0x00003529       0x80 build/fatfs.ar(ff.o)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *fill*         0x000035a9        0x3 
+ .eh_frame      0x000035ac        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x000035ac                . = ALIGN (0x4)
+ *(.init)
+ .init          0x000035ac        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x000035ac                _init
+ .init          0x000035b0        0x8 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+                0x000035b8                . = ALIGN (0x4)
+                0x000035b8                __preinit_array_start = .
+ *(.preinit_array)
+                0x000035b8                __preinit_array_end = .
+                0x000035b8                . = ALIGN (0x4)
+                0x000035b8                __init_array_start = .
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x000035b8        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0x000035bc        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x000035c0                __init_array_end = .
+                0x000035c0                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x000035c0                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x000035c0        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x000035c0                _fini
+ .fini          0x000035c4        0x8 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+                0x000035cc                . = ALIGN (0x4)
+                0x000035cc                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x000035cc        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x000035d0                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x000035d0                . = ALIGN (0x4)
+                0x000035d0                __cs3_regions = .
+                0x000035d0        0x4 LONG 0x0
+                0x000035d4        0x4 LONG 0x3600 __cs3_region_init_ram
+                0x000035d8        0x4 LONG 0x10000000 __cs3_region_start_ram
+                0x000035dc        0x4 LONG 0x90 __cs3_region_init_size_ram
+                0x000035e0        0x4 LONG 0xb48 __cs3_region_zero_size_ram
+                0x000035e4                __exidx_start = .
+
+.v4_bx          0x000035e4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000035e4        0x0
+ .iplt          0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+
+.ARM.exidx      0x000035e4       0x18
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.cs3.reset
+                0x000035e4        0x8 build/startup.o
+ .ARM.exidx.text.init_nvic
+                0x000035ec       0x10 build/startup.o
+                                  0x8 (size before relaxing)
+                0x000035fc                __exidx_end = .
+
+.rel.dyn        0x000035fc        0x0
+ .rel.iplt      0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+
+.text.align     0x000035fc        0x4
+                0x00003600                . = ALIGN (0x8)
+ *fill*         0x000035fc        0x4 
+                0x00003600                _etext = .
+                0x00004000                __cs3_region_size_rom = 0x4000
+                0x00000001                __cs3_region_num = 0x1
+
+.data           0x10000000       0x90 load address 0x00003600
+                0x10000000                __cs3_region_start_ram = .
+                0x10000000                _sdata = .
+ *(.cs3.region-head.ram)
+ *(.jcr)
+ .jcr           0x10000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .jcr           0x10000000        0x4 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.firmware_file
+                0x10000004        0x4 build/main.o
+                0x10000004                firmware_file
+ .data.firmware_old
+                0x10000008        0x4 build/main.o
+                0x10000008                firmware_old
+ .data.desc     0x1000000c       0x79 build/dfu.o
+                0x1000000c                desc
+ .data.DFU_status
+                0x10000085        0x6 build/dfu.o
+                0x10000085                DFU_status
+ *fill*         0x1000008b        0x1 
+ .data.SystemCoreClock
+                0x1000008c        0x4 build/nxp.ar(system_LPC17xx.o)
+                0x1000008c                SystemCoreClock
+ *(.ram)
+                0x10000090                . = ALIGN (0x8)
+                0x10000090                _edata = .
+
+.igot.plt       0x10000090        0x0 load address 0x00003690
+ .igot.plt      0x00000000        0x0 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+
+.bss            0x10000090      0xb48 load address 0x00003690
+                0x10000090                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x10000090       0x1c /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .bss.flash_address
+                0x100000ac        0x4 build/sbl_iap.o
+                0x100000ac                flash_address
+ .bss.byte_ctr  0x100000b0        0x4 build/sbl_iap.o
+                0x100000b0                byte_ctr
+ .bss.Fsid      0x100000b4        0x2 build/fatfs.ar(ff.o)
+ *fill*         0x100000b6        0x2 
+ .bss.FatFs     0x100000b8        0x4 build/fatfs.ar(ff.o)
+ *(COMMON)
+ COMMON         0x100000bc      0x41d build/uart.o
+                0x100000bc                rxbuf
+                0x100002c4                TxIntStat
+                0x100002c8                port
+                0x100002cc                txbuf
+                0x100004d4                u
+                0x100004d8                blocking
+ *fill*         0x100004d9        0x3 
+ COMMON         0x100004dc       0x58 build/usbcore.o
+                0x100004dc                control
+                0x100004ee                control_buffer
+                0x10000530                descriptors
+ COMMON         0x10000534      0x228 build/sbl_iap.o
+                0x10000534                param_table
+                0x10000548                result_table
+                0x1000055c                flash_buf
+ COMMON         0x1000075c       0x14 build/SDCard.o
+                0x1000075c                busy_buffers
+                0x10000760                busyflags
+                0x10000764                _cs
+                0x10000768                cardtype
+                0x1000076c                _sectors
+ COMMON         0x10000770        0xe build/spi.o
+                0x10000770                sspr
+                0x10000774                sclk
+                0x10000776                mosi
+                0x10000778                delay
+                0x1000077c                miso
+ COMMON         0x1000077e      0x252 build/main.o
+                0x1000077e                fat
+                0x100009ac                file
+ COMMON         0x100009d0      0x208 build/dfu.o
+                0x100009d0                current_state
+                0x100009d4                flash_p
+                0x100009d8                block_buffer
+ *(.ram.b)
+                0x10000bd8                . = ALIGN (0x8)
+                0x10000bd8                _ebss = .
+                0x10000bd8                _end = .
+                0x10000bd8                __end = .
+
+.heap           0x10000bd8     0x1000 load address 0x00003690
+ *(.heap)
+ .heap          0x10000bd8     0x1000 build/startup.o
+                0x10000bd8                __cs3_heap_start
+                0x10001bd8                __cs3_heap_end
+
+.stack          0x10007ce0      0x300
+ *(.stack)
+ .stack         0x10007ce0      0x300 build/startup.o
+                0x10007ce0                __cs3_stack_mem
+
+.ahb_bank0
+ *(.ahb_sram_bank0 .ahb_sram_bank0.*)
+ *(buffers buffers* .buffers .buffers.*)
+ *(.USB_RAM .USB_RAM.*)
+ *(USB_RAM USB_RAM.*)
+                0x00003600                __cs3_region_init_ram = LOADADDR (.data)
+                0x00000090                __cs3_region_init_size_ram = (_edata - __cs3_region_start_ram)
+                0x00000b48                __cs3_region_zero_size_ram = (_end - _edata)
+                0x00007fe0                __cs3_region_size_ram = 0x7fe0
+                0x00000001                __cs3_region_num = 0x1
+                0x00004000                _user_flash_start = ORIGIN (userom)
+                0x0007c000                _user_flash_size = 0x7c000
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xa78
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb0 build/lpc17xx_usb.o
+ .debug_aranges
+                0x000000b0       0x88 build/uart.o
+ .debug_aranges
+                0x00000138       0x60 build/usbcore.o
+ .debug_aranges
+                0x00000198       0x68 build/sbl_iap.o
+ .debug_aranges
+                0x00000200       0xc0 build/SDCard.o
+ .debug_aranges
+                0x000002c0       0x78 build/usbhw.o
+ .debug_aranges
+                0x00000338       0x38 build/spi.o
+ .debug_aranges
+                0x00000370       0x60 build/gpio.o
+ .debug_aranges
+                0x000003d0       0x88 build/skel.o
+ .debug_aranges
+                0x00000458       0x78 build/main.o
+ .debug_aranges
+                0x000004d0       0x60 build/min-printf.o
+ .debug_aranges
+                0x00000530       0x70 build/dfu.o
+ .debug_aranges
+                0x000005a0       0x30 build/startup.o
+ .debug_aranges
+                0x000005d0       0x28 build/nxp.ar(system_LPC17xx.o)
+ .debug_aranges
+                0x000005f8       0x30 build/nxp.ar(lpc17xx_pinsel.o)
+ .debug_aranges
+                0x00000628       0xe0 build/nxp.ar(lpc17xx_gpio.o)
+ .debug_aranges
+                0x00000708      0x118 build/nxp.ar(lpc17xx_uart.o)
+ .debug_aranges
+                0x00000820       0x30 build/nxp.ar(lpc17xx_nvic.o)
+ .debug_aranges
+                0x00000850       0x58 build/nxp.ar(lpc17xx_clkpwr.o)
+ .debug_aranges
+                0x000008a8       0x58 build/nxp.ar(lpc17xx_wdt.o)
+ .debug_aranges
+                0x00000900      0x138 build/fatfs.ar(ff.o)
+ .debug_aranges
+                0x00000a38       0x40 build/fatfs.ar(diskio.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xf463
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xcd7 build/lpc17xx_usb.o
+ .debug_info    0x00000cd7     0x1766 build/uart.o
+ .debug_info    0x0000243d      0x602 build/usbcore.o
+ .debug_info    0x00002a3f      0x6f0 build/sbl_iap.o
+ .debug_info    0x0000312f     0x1322 build/SDCard.o
+ .debug_info    0x00004451      0xe47 build/usbhw.o
+ .debug_info    0x00005298      0xbfc build/spi.o
+ .debug_info    0x00005e94      0x7f0 build/gpio.o
+ .debug_info    0x00006684      0x3e8 build/skel.o
+ .debug_info    0x00006a6c     0x114b build/main.o
+ .debug_info    0x00007bb7      0x4a9 build/min-printf.o
+ .debug_info    0x00008060      0xabf build/dfu.o
+ .debug_info    0x00008b1f       0x5c build/startup.o
+ .debug_info    0x00008b7b      0x571 build/nxp.ar(system_LPC17xx.o)
+ .debug_info    0x000090ec      0x507 build/nxp.ar(lpc17xx_pinsel.o)
+ .debug_info    0x000095f3      0xdab build/nxp.ar(lpc17xx_gpio.o)
+ .debug_info    0x0000a39e     0x1723 build/nxp.ar(lpc17xx_uart.o)
+ .debug_info    0x0000bac1      0x3c7 build/nxp.ar(lpc17xx_nvic.o)
+ .debug_info    0x0000be88      0x645 build/nxp.ar(lpc17xx_clkpwr.o)
+ .debug_info    0x0000c4cd      0x406 build/nxp.ar(lpc17xx_wdt.o)
+ .debug_info    0x0000c8d3     0x286b build/fatfs.ar(ff.o)
+ .debug_info    0x0000f13e      0x325 build/fatfs.ar(diskio.o)
+
+.debug_abbrev   0x00000000     0x2d07
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x19d build/lpc17xx_usb.o
+ .debug_abbrev  0x0000019d      0x442 build/uart.o
+ .debug_abbrev  0x000005df      0x1b2 build/usbcore.o
+ .debug_abbrev  0x00000791      0x204 build/sbl_iap.o
+ .debug_abbrev  0x00000995      0x31a build/SDCard.o
+ .debug_abbrev  0x00000caf      0x29b build/usbhw.o
+ .debug_abbrev  0x00000f4a      0x1b8 build/spi.o
+ .debug_abbrev  0x00001102      0x13d build/gpio.o
+ .debug_abbrev  0x0000123f      0x184 build/skel.o
+ .debug_abbrev  0x000013c3      0x344 build/main.o
+ .debug_abbrev  0x00001707      0x193 build/min-printf.o
+ .debug_abbrev  0x0000189a      0x28a build/dfu.o
+ .debug_abbrev  0x00001b24       0x12 build/startup.o
+ .debug_abbrev  0x00001b36      0x1a2 build/nxp.ar(system_LPC17xx.o)
+ .debug_abbrev  0x00001cd8      0x182 build/nxp.ar(lpc17xx_pinsel.o)
+ .debug_abbrev  0x00001e5a      0x22b build/nxp.ar(lpc17xx_gpio.o)
+ .debug_abbrev  0x00002085      0x3e4 build/nxp.ar(lpc17xx_uart.o)
+ .debug_abbrev  0x00002469       0xff build/nxp.ar(lpc17xx_nvic.o)
+ .debug_abbrev  0x00002568      0x1b6 build/nxp.ar(lpc17xx_clkpwr.o)
+ .debug_abbrev  0x0000271e      0x1db build/nxp.ar(lpc17xx_wdt.o)
+ .debug_abbrev  0x000028f9      0x2f5 build/fatfs.ar(ff.o)
+ .debug_abbrev  0x00002bee      0x119 build/fatfs.ar(diskio.o)
+
+.debug_line     0x00000000     0x3f9b
+ *(.debug_line)
+ .debug_line    0x00000000        0x0 build/baudfinder.o
+ .debug_line    0x00000000      0x3bd build/lpc17xx_usb.o
+ .debug_line    0x000003bd      0x4a4 build/uart.o
+ .debug_line    0x00000861      0x1e7 build/usbcore.o
+ .debug_line    0x00000a48      0x260 build/sbl_iap.o
+ .debug_line    0x00000ca8      0x3d5 build/SDCard.o
+ .debug_line    0x0000107d      0x2c6 build/usbhw.o
+ .debug_line    0x00001343      0x1c9 build/spi.o
+ .debug_line    0x0000150c      0x1cd build/gpio.o
+ .debug_line    0x000016d9      0x26c build/skel.o
+ .debug_line    0x00001945      0x2a4 build/main.o
+ .debug_line    0x00001be9      0x276 build/min-printf.o
+ .debug_line    0x00001e5f      0x24f build/dfu.o
+ .debug_line    0x000020ae       0x99 build/startup.o
+ .debug_line    0x00002147      0x1c7 build/nxp.ar(system_LPC17xx.o)
+ .debug_line    0x0000230e      0x1cb build/nxp.ar(lpc17xx_pinsel.o)
+ .debug_line    0x000024d9      0x36e build/nxp.ar(lpc17xx_gpio.o)
+ .debug_line    0x00002847      0x5ae build/nxp.ar(lpc17xx_uart.o)
+ .debug_line    0x00002df5      0x17f build/nxp.ar(lpc17xx_nvic.o)
+ .debug_line    0x00002f74      0x243 build/nxp.ar(lpc17xx_clkpwr.o)
+ .debug_line    0x000031b7      0x23a build/nxp.ar(lpc17xx_wdt.o)
+ .debug_line    0x000033f1      0x9d8 build/fatfs.ar(ff.o)
+ .debug_line    0x00003dc9      0x1d2 build/fatfs.ar(diskio.o)
+
+.debug_frame    0x00000000     0x1d48
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1fc build/lpc17xx_usb.o
+ .debug_frame   0x000001fc      0x1a4 build/uart.o
+ .debug_frame   0x000003a0       0xf4 build/usbcore.o
+ .debug_frame   0x00000494      0x140 build/sbl_iap.o
+ .debug_frame   0x000005d4      0x284 build/SDCard.o
+ .debug_frame   0x00000858      0x174 build/usbhw.o
+ .debug_frame   0x000009cc       0x68 build/spi.o
+ .debug_frame   0x00000a34      0x114 build/gpio.o
+ .debug_frame   0x00000b48       0xf0 build/skel.o
+ .debug_frame   0x00000c38      0x12c build/main.o
+ .debug_frame   0x00000d64      0x14c build/min-printf.o
+ .debug_frame   0x00000eb0      0x100 build/dfu.o
+ .debug_frame   0x00000fb0       0x48 build/nxp.ar(system_LPC17xx.o)
+ .debug_frame   0x00000ff8       0x50 build/nxp.ar(lpc17xx_pinsel.o)
+ .debug_frame   0x00001048      0x224 build/nxp.ar(lpc17xx_gpio.o)
+ .debug_frame   0x0000126c      0x2c8 build/nxp.ar(lpc17xx_uart.o)
+ .debug_frame   0x00001534       0x40 build/nxp.ar(lpc17xx_nvic.o)
+ .debug_frame   0x00001574       0xa8 build/nxp.ar(lpc17xx_clkpwr.o)
+ .debug_frame   0x0000161c       0xc8 build/nxp.ar(lpc17xx_wdt.o)
+ .debug_frame   0x000016e4      0x4f8 build/fatfs.ar(ff.o)
+ .debug_frame   0x00001bdc       0xa4 build/fatfs.ar(diskio.o)
+ .debug_frame   0x00001c80       0x28 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o)
+ .debug_frame   0x00001ca8       0x2c /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x00001cd4       0x48 /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001d1c       0x2c /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-fini.o)
+
+.debug_str      0x00000000     0x3666
+ *(.debug_str)
+ .debug_str     0x00000000        0x0 build/baudfinder.o
+ .debug_str     0x00000000      0x784 build/lpc17xx_usb.o
+                                0x7f3 (size before relaxing)
+ .debug_str     0x00000784      0x9de build/uart.o
+                                0xcb8 (size before relaxing)
+ .debug_str     0x00001162      0x34c build/usbcore.o
+                                0x590 (size before relaxing)
+ .debug_str     0x000014ae      0x1f8 build/sbl_iap.o
+                                0x496 (size before relaxing)
+ .debug_str     0x000016a6      0x225 build/SDCard.o
+                                0x864 (size before relaxing)
+ .debug_str     0x000018cb      0x219 build/usbhw.o
+                                0x9aa (size before relaxing)
+ .debug_str     0x00001ae4       0x67 build/spi.o
+                                0x8e8 (size before relaxing)
+ .debug_str     0x00001b4b       0x67 build/gpio.o
+                                0x6b6 (size before relaxing)
+ .debug_str     0x00001bb2       0xbc build/skel.o
+                                0x347 (size before relaxing)
+ .debug_str     0x00001c6e      0x2cd build/main.o
+                                0xaaa (size before relaxing)
+ .debug_str     0x00001f3b       0x8d build/min-printf.o
+                                0x2d9 (size before relaxing)
+ .debug_str     0x00001fc8      0x3ab build/dfu.o
+                                0x852 (size before relaxing)
+ .debug_str     0x00002373       0x73 build/nxp.ar(system_LPC17xx.o)
+                                0x46a (size before relaxing)
+ .debug_str     0x000023e6      0x117 build/nxp.ar(lpc17xx_pinsel.o)
+                                0x4c9 (size before relaxing)
+ .debug_str     0x000024fd      0x42c build/nxp.ar(lpc17xx_gpio.o)
+                                0x6c0 (size before relaxing)
+ .debug_str     0x00002929      0x80e build/nxp.ar(lpc17xx_uart.o)
+                                0xc93 (size before relaxing)
+ .debug_str     0x00003137       0x4d build/nxp.ar(lpc17xx_nvic.o)
+                                0x34b (size before relaxing)
+ .debug_str     0x00003184       0xcd build/nxp.ar(lpc17xx_clkpwr.o)
+                                0x4f0 (size before relaxing)
+ .debug_str     0x00003251      0x160 build/nxp.ar(lpc17xx_wdt.o)
+                                0x413 (size before relaxing)
+ .debug_str     0x000033b1      0x28e build/fatfs.ar(ff.o)
+                                0x68e (size before relaxing)
+ .debug_str     0x0000363f       0x27 build/fatfs.ar(diskio.o)
+                                0x309 (size before relaxing)
+
+.debug_loc      0x00000000     0x790d
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x224 build/lpc17xx_usb.o
+ .debug_loc     0x00000224      0x68a build/uart.o
+ .debug_loc     0x000008ae      0x12f build/usbcore.o
+ .debug_loc     0x000009dd      0x3a9 build/sbl_iap.o
+ .debug_loc     0x00000d86      0x8cb build/SDCard.o
+ .debug_loc     0x00001651      0x2e6 build/usbhw.o
+ .debug_loc     0x00001937      0x112 build/spi.o
+ .debug_loc     0x00001a49      0x16b build/gpio.o
+ .debug_loc     0x00001bb4      0x14a build/skel.o
+ .debug_loc     0x00001cfe      0x199 build/main.o
+ .debug_loc     0x00001e97      0x4a4 build/min-printf.o
+ .debug_loc     0x0000233b       0xd0 build/dfu.o
+ .debug_loc     0x0000240b      0x1d3 build/nxp.ar(lpc17xx_pinsel.o)
+ .debug_loc     0x000025de      0x80a build/nxp.ar(lpc17xx_gpio.o)
+ .debug_loc     0x00002de8      0xf10 build/nxp.ar(lpc17xx_uart.o)
+ .debug_loc     0x00003cf8       0x4c build/nxp.ar(lpc17xx_nvic.o)
+ .debug_loc     0x00003d44      0x1af build/nxp.ar(lpc17xx_clkpwr.o)
+ .debug_loc     0x00003ef3      0x2ef build/nxp.ar(lpc17xx_wdt.o)
+ .debug_loc     0x000041e2     0x337d build/fatfs.ar(ff.o)
+ .debug_loc     0x0000755f      0x3ae build/fatfs.ar(diskio.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 build/baudfinder.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 build/lpc17xx_usb.o
+ .comment       0x00000000       0x71 build/uart.o
+ .comment       0x00000000       0x71 build/usbcore.o
+ .comment       0x00000000       0x71 build/sbl_iap.o
+ .comment       0x00000000       0x71 build/SDCard.o
+ .comment       0x00000000       0x71 build/usbhw.o
+ .comment       0x00000000       0x71 build/spi.o
+ .comment       0x00000000       0x71 build/gpio.o
+ .comment       0x00000000       0x71 build/skel.o
+ .comment       0x00000000       0x71 build/main.o
+ .comment       0x00000000       0x71 build/min-printf.o
+ .comment       0x00000000       0x71 build/dfu.o
+ .comment       0x00000000       0x71 build/nxp.ar(system_LPC17xx.o)
+ .comment       0x00000000       0x71 build/nxp.ar(lpc17xx_pinsel.o)
+ .comment       0x00000000       0x71 build/nxp.ar(lpc17xx_gpio.o)
+ .comment       0x00000000       0x71 build/nxp.ar(lpc17xx_uart.o)
+ .comment       0x00000000       0x71 build/nxp.ar(lpc17xx_nvic.o)
+ .comment       0x00000000       0x71 build/nxp.ar(lpc17xx_clkpwr.o)
+ .comment       0x00000000       0x71 build/nxp.ar(lpc17xx_wdt.o)
+ .comment       0x00000000       0x71 build/fatfs.ar(ff.o)
+ .comment       0x00000000       0x71 build/fatfs.ar(diskio.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x33 build/baudfinder.o
+ .ARM.attributes
+                0x00000098       0x33 build/lpc17xx_usb.o
+ .ARM.attributes
+                0x000000cb       0x33 build/uart.o
+ .ARM.attributes
+                0x000000fe       0x33 build/usbcore.o
+ .ARM.attributes
+                0x00000131       0x33 build/sbl_iap.o
+ .ARM.attributes
+                0x00000164       0x33 build/SDCard.o
+ .ARM.attributes
+                0x00000197       0x33 build/usbhw.o
+ .ARM.attributes
+                0x000001ca       0x33 build/spi.o
+ .ARM.attributes
+                0x000001fd       0x33 build/gpio.o
+ .ARM.attributes
+                0x00000230       0x33 build/skel.o
+ .ARM.attributes
+                0x00000263       0x33 build/main.o
+ .ARM.attributes
+                0x00000296       0x33 build/min-printf.o
+ .ARM.attributes
+                0x000002c9       0x33 build/dfu.o
+ .ARM.attributes
+                0x000002fc       0x21 build/startup.o
+ .ARM.attributes
+                0x0000031d       0x33 build/nxp.ar(system_LPC17xx.o)
+ .ARM.attributes
+                0x00000350       0x33 build/nxp.ar(lpc17xx_pinsel.o)
+ .ARM.attributes
+                0x00000383       0x33 build/nxp.ar(lpc17xx_gpio.o)
+ .ARM.attributes
+                0x000003b6       0x33 build/nxp.ar(lpc17xx_uart.o)
+ .ARM.attributes
+                0x000003e9       0x33 build/nxp.ar(lpc17xx_nvic.o)
+ .ARM.attributes
+                0x0000041c       0x33 build/nxp.ar(lpc17xx_clkpwr.o)
+ .ARM.attributes
+                0x0000044f       0x33 build/nxp.ar(lpc17xx_wdt.o)
+ .ARM.attributes
+                0x00000482       0x33 build/fatfs.ar(ff.o)
+ .ARM.attributes
+                0x000004b5       0x33 build/fatfs.ar(diskio.o)
+ .ARM.attributes
+                0x000004e8       0x2d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000515       0x2d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000542       0x2d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000056f       0x2d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000059c       0x2d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000005c9       0x2d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x000005f6       0x1d /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a
+START GROUP
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libg.a
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc.a
+END GROUP
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+LOAD /home/ellensp/code/Smoothie/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+OUTPUT(build/DFU-Bootloader.elf elf32-littlearm)
+
+.debug_ranges   0x00000000      0xb98
+ .debug_ranges  0x00000000       0xa0 build/lpc17xx_usb.o
+ .debug_ranges  0x000000a0      0x120 build/uart.o
+ .debug_ranges  0x000001c0       0x50 build/usbcore.o
+ .debug_ranges  0x00000210       0x58 build/sbl_iap.o
+ .debug_ranges  0x00000268       0xe0 build/SDCard.o
+ .debug_ranges  0x00000348       0x68 build/usbhw.o
+ .debug_ranges  0x000003b0       0x28 build/spi.o
+ .debug_ranges  0x000003d8       0x50 build/gpio.o
+ .debug_ranges  0x00000428       0x78 build/skel.o
+ .debug_ranges  0x000004a0       0x68 build/main.o
+ .debug_ranges  0x00000508       0x50 build/min-printf.o
+ .debug_ranges  0x00000558       0x60 build/dfu.o
+ .debug_ranges  0x000005b8       0x28 build/startup.o
+ .debug_ranges  0x000005e0       0x18 build/nxp.ar(system_LPC17xx.o)
+ .debug_ranges  0x000005f8       0x60 build/nxp.ar(lpc17xx_pinsel.o)
+ .debug_ranges  0x00000658       0xd0 build/nxp.ar(lpc17xx_gpio.o)
+ .debug_ranges  0x00000728      0x190 build/nxp.ar(lpc17xx_uart.o)
+ .debug_ranges  0x000008b8       0x20 build/nxp.ar(lpc17xx_nvic.o)
+ .debug_ranges  0x000008d8       0x48 build/nxp.ar(lpc17xx_clkpwr.o)
+ .debug_ranges  0x00000920       0x48 build/nxp.ar(lpc17xx_wdt.o)
+ .debug_ranges  0x00000968      0x200 build/fatfs.ar(ff.o)
+ .debug_ranges  0x00000b68       0x30 build/fatfs.ar(diskio.o)
